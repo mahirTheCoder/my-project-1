@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="girl.jpg" />
+    <style>
+      h1 {
+        font-size: 45px;
+        font-weight: 600;
+
+        display: inline-block;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        /* font-family: satisfy; */
+        font-family: "Satisfy", cursive;
+        color: #daffd6af;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>
+      Everybody in this country should learn to program a computer, because it
+      teaches you how to think.
+    </h1>
+    <p>
+      Coding should be human-readable first, because great code tells a story to
+      future developers
+    </p>
+
+    <div class="content">
+      <img
+        src="coding.png" alt="Coding Image" style="height: 200px; width: 200px"/>
+      <div class="text">
+        <h2
+          style="
+            color: #ff2600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;">
+          Why Coding is Important ??
+        </h2>
+        <p>
+          Coding is the backbone of technology in today's world. Learning to
+          code opens doors to countless career opportunities in fields like
+          software development, web development, data science, and artificial
+          intelligence. It teaches you problem-solving, logical thinking, and
+          creativity, which are essential skills in almost every aspect of life.
+          As technology continues to evolve, coding will only become more
+          important in shaping the future of our world.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <iframe
+        width="300px"
+        height="200px"
+        src="https://www.youtube.com/embed/mOFoh9FUR8w"
+        title="Developer Coding Background"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+
+      <div class="hover-box">
+        <h3 style="text-align: center">Hover Me</h3>
+      </div>
+
+      <form class="form-box">
+        <h3>Contact Us</h3>
+        <input type="text" placeholder="Your Name" required /><br />
+        <input type="email" placeholder="Your Email" required /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <label
+      for="reason"
+      style="color: rgba(3, 3, 3, 0.801); text-shadow: 5px 5px 10px"
+      >Why are you learning Web Development?</label
+    >
+    <select id="reason" name="reason">
+      <option value="freelancing">Freelancing</option>
+      <option value="job">Job</option>
+      <option value="business">Business</option>
+      <option value="both">Both Freelancing & Job</option>
+    </select>
+  </body>
+</html>

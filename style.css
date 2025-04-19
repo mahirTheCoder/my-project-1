@@ -1,0 +1,152 @@
+
+body {
+  background-image: url(girl.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  border-left: 5px solid #146296;
+  margin-bottom: 20px;
+  color: rgb(10, 185, 185);
+}
+nav {
+  background-color: transparent;
+  padding: 20px 0;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 90px; 
+}
+
+li {
+  margin-right: 40px; 
+}
+
+a {
+  color: #1592e6;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+li:nth-child(2) a {
+  color: #b61ec4;
+}
+
+li:nth-child(3) a {
+  color: #c7bedf;
+}
+
+li:nth-child(4) a {
+  color: #ee7a0e;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.content img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; 
+}
+
+
+
+.content p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  margin-top: 30px;
+}
+iframe {
+  border-radius: 20px;
+}
+
+/* Hoverable div */
+.hover-box {
+  width: 250px;
+  height: 200px;
+  background-color:#facade;
+  line-height: 170px;
+  border-radius: 10px;
+ transition: all linear 1.4s;
+  
+}
+
+.hover-box:hover {
+  background-color: #daffd6;
+  transform: scale(1.4s);
+  box-shadow: 10px 10px 20px;
+  transform: scale(1.5);
+  transform: rotate(360deg);
+}
+
+
+.form-box {
+  width: 200px;
+  height: 150px;
+  background-color: #e45b25;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-box input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #1f7ae2;
+  border-radius: 5px;
+}
+
+.form-box button {
+  padding: 8px 16px;
+  background-color: #aac252a8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #0d75c2;
+}
+
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eb1515;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px; 
+}
